@@ -1,11 +1,12 @@
-import GetImages from './GetImages';
+import logo from './logo.svg';
 import './App.css';
+import AllRoutes from './Routes/AllRoutes';
 
 function App() {
   return (
-    <>
-      <GetImages/>
-    </>
+    <div className="App">
+       <AllRoutes/> 
+    </div>
   );
 }
 
